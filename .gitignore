@@ -6,6 +6,7 @@ module2_2/*.tfstate.*
 module2_2/.terraform/
 module2_2/.terraform/providers/
 module2_2/.terraformrc
+module2_2/.terraform.lock.hcl
 module2_2/terraform.rc
 
 # Crash logs

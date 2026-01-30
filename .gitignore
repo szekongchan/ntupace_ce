@@ -1,13 +1,16 @@
-# Coaching1.2
-coaching1_2/.venv
+# Python virtual environment ignores
+**/.venv
 
-# Module 2.2
-module2_2/*.tfstate
-module2_2/*.tfstate.*
+# ssh key ignores
+**/.ssh
+**/.ssh/*.pem
 
-module2_2/.terraform/
-module2_2/.terraform/providers/
-module2_2/.terraformrc
-module2_2/.terraform.lock.hcl
-module2_2/terraform.rc
+# Global Terraform ignores
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.*
+**/.terraformrc
+**/terraform.rc
+**/crash.log
 
